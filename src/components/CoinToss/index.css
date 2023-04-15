@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #a35200;
+  font-size: 45px;
+}
+.para {
+  color: #334155;
+  font-size: 35px;
+}
+.image {
+  height: 300px;
+  width: 300px;
+}
+.button {
+  background-color: #f9d423;
+  height: 35px;
+  width: 90px;
+  color: #a35200;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+}
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.total {
+  color: #475569;
+  font-size: 20px;
+  padding-right: 17px;
+}
